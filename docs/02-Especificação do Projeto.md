@@ -9,7 +9,7 @@ Quadro 1 – Personas
 
 | Nome | Ocupação | Motivações | Frustações |
 |---|---|---|---|
-| Rafaella | Protocolista | Recebe um volume muito grande de processos a serem lançados de forma manual | Perde-se o controle ao ter que fazer o trabalho em word e excel. |
+| Rafaella | Médica | Recebe um volume muito grande de processos a serem lançados de forma manual | Perde-se o controle ao ter que fazer o trabalho em word e excel. |
 | Gustavo | Protocolista | A tramitação é feita via livro protocolo em forma de caderno | Não consegue indexar processo de mais de 6 meses. |
 | Paulo | Gerente de cadastro em entidade de saneamento | Recebe um volume de requisições de CND de forma manual | Tem que anexar a CND impressa em malotes que ficam fora de ordem |
 | Sávio | Gerente de Departamento Pessoal | Toda solicitação de férias é via protocolo | As requisições chegam duplicadas e fora de ordem | 
@@ -45,20 +45,19 @@ A tabela a seguir apresenta os requisitos funcionais do projeto e sua prioridade
 | Código | Descrição | Prioridade |
 | --- | --- | --- |
 | RF-1 | O sistema deverá cadastrar os setores da entidade, setores estes para onde os processos serão iniciados e tramitados. | Alta |
-| RF-2 | O sistema deverá cadastrar os usuários do sistema, definindo quem pode iniciar um processo do setor. | Alta |
-| RF-2 | O sistema deverá vincular um usuário a um ou mais setores. | Alta |
-| RF-2 | O sistema deverá cadastrar tipos de processos | Alta |
-| RF-2 | O sistema deverá cadastrar interessados, que podem ser pessoas físicas ou jurídicas | Alta |
-| RF-2 | O sistema deverá permitir cadastrar processos especificando tipo, interessado, setor de origem e descrição | Alta |
-| RF-2 | O sistema deverá permitir cadastrar anexos aos processos | Alta |
-| RF-2 | O sistema deverá permitir tramitar um processo para outros setores | Alta |
-| RF-2 | O sistema deverá permitir excluir a última tramitação | Alta |
-
-| RF-4 | O sistema não poderá funcionar sem autenticação. | Alta|
-| RF-6 | O sistema deverá apresentar um menu que permita acesso as principais áreas do sistema. | Alta |
-| RF-8 | O sistema deverá permitir ao usuário buscar processos por filtros. | Alta |
-| RF-9 | O sistema deverá permitir a exportação da listagem de processos para o Excel. | Baixa | 
-| RF-13 | O sistema deverá criar um usuário automaticamente quando não houver nenhum usuário | Alto |
+| RF-3 | O sistema deverá cadastrar os usuários do sistema, definindo quem pode iniciar um processo do setor. | Alta |
+| RF-4 | O sistema deverá vincular um usuário a um ou mais setores. | Alta |
+| RF-5 | O sistema deverá cadastrar tipos de processos | Alta |
+| RF-6 | O sistema deverá cadastrar interessados, que podem ser pessoas físicas ou jurídicas | Alta |
+| RF-7 | O sistema deverá permitir cadastrar processos especificando tipo, interessado, setor de origem e descrição | Alta |
+| RF-8 | O sistema deverá permitir cadastrar anexos aos processos | Alta |
+| RF-9 | O sistema deverá permitir tramitar um processo para outros setores | Alta |
+| RF-10 | O sistema deverá permitir excluir a última tramitação | Alta |
+| RF-11 | O sistema não poderá funcionar sem autenticação. | Alta|
+| RF-12 | O sistema deverá apresentar um menu que permita acesso as principais áreas do sistema. | Alta |
+| RF-13 | O sistema deverá permitir ao usuário buscar processos por filtros. | Alta |
+| RF-14 | O sistema deverá permitir a exportação da listagem de processos para o Excel. | Baixa | 
+| RF-15 | O sistema deverá criar um usuário automaticamente quando não houver nenhum usuário | Alto |
 
 
 ### 2.3.2 Requisitos Não Funcionais
@@ -67,7 +66,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 | Código | Descrição |
 | --- | --- | 
 | RNF-1 | Garantir boas práticas de desenvolvimento evitando um SQL Injection. |
-| RNF-1 | O sistema poderá ser acessível via celular ou tablet (ser responsivo). |
+| RNF-2 | O sistema poderá ser acessível via celular ou tablet (ser responsivo). |
 
 
 
@@ -76,15 +75,15 @@ A tabela a seguir apresenta os requisitos de negócios que o projeto deverá ate
 
 | Código | Descrição | Prioridade |
 | --- | --- | --- | 
-| RN-3 | Não se pode cadastrar mais de um interessado com o mesmo cpf ou cnpj repetidamente. | Média |
-| RN-4 | O nome da pessoa deve ser obrigatório. | Alta |
-| RN-5 | Todos os CPFs e CNPJs das pessoas cadastradas devem ser validados.| Alta |
-| RN-6 | Cada pessoa deverá ter um código incremental único. | Alta | 
-| RN-6 | Cada setor deverá ter um nome único. | Alta | 	
+| RN-1 | Não se pode cadastrar mais de um interessado com o mesmo cpf ou cnpj repetidamente. | Média |
+| RN-2 | O nome da pessoa deve ser obrigatório. | Alta |
+| RN-3 | Todos os CPFs e CNPJs das pessoas cadastradas devem ser validados.| Alta |
+| RN-4 | Cada pessoa deverá ter um código incremental único. | Alta | 
+| RN-5 | Cada setor deverá ter um nome único. | Alta | 	
 | RN-6 | Cada tipo e processo deverá ter um nome único. | Alta | 	
-| RN-6 | Cada processo deverá ter como obrigatório Requisitante, Tipo. | Alta | 	
-| RN-6 | O sistema deverá gerar um código incremental para cada processo. | Alta | 	
-| RN-6 | O sistema deverá cadastrar automaticamente a data	e hora do processo. | Alta | 	
+| RN-7 | Cada processo deverá ter como obrigatório Requisitante, Tipo. | Alta | 	
+| RN-8 | O sistema deverá gerar um código incremental para cada processo. | Alta | 	
+| RN-9 | O sistema deverá cadastrar automaticamente a data	e hora do processo. | Alta | 	
 
 ### 2.3.4 Restrições 
 As questões que limitam a execução do projeto são apresentadas na tabela a seguir.
