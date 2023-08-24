@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# Prospecta
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Eixo 2`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Zebral de Castro Koehne
+* Carolina Mascarenhas Gontijo Couto
+* Carolina Morais Rabelo
+* Débora Alexia Coelho da Silva
+* Laila Suelen Martins Costa
+* Lídia Fonseca de Carvalho
+  
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa
 
 ## Instruções de utilização
 
