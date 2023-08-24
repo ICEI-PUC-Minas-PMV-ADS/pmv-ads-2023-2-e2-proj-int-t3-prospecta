@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o advento do século XXI, a internet tornou-se uma das principais ferramentas do marketing de empresas, pois possibilita a democratização das informações e a exposição de diferentes negócios, produtos e ofertas de forma mais acessível e mais direcionada à nichos específicos (Benedete, 2018). O marketing digital tem focado em estratégias cada vez mais assertivas para gerar rentabilidade e resultados para as empresas, explorando assim ferramentas que contemplem a necessidade de atração de clientes.
+
+Nesse sentido, a literatura em marketing digital cria o conceito de Leads. Segundo Torres (2009), um lead é uma oportunidade de negócio, pois é conceituado a partir da atitude de uma pessoa em deixar seu contato – e-mail, telefone, etc – a partir de formulário específico, a fim de adquirir um produto ou serviço. Um lead é assim, um cliente em potencial, que realiza uma troca de extremo valor no mundo digital: dados pessoais por ofertas de negócios.
+
+A conquista de um potencial cliente é um desafio que perpassa várias etapas, dentre elas a de prospecção e de conversão (Sfredo, 2017). Iniciar esse processo, que culmina na venda ou conclusão de negócio empresarial, requer a disponibilização de ferramentas não somente de propagandas, como fundamentalmente, de gerenciamento e atração dos leads.  Assim, um sistema de software que seja capaz de gerar formulários que atendam o público alvo das empresas, possibilite o armazenamento e organização dos dados dos leads, filtre os melhores resultados de acordo com a compatibilidade de interesses e permita o gerenciamento dos processo de atração, se faz ideal nesse cenário. 
+
 
 ## Problema
 
