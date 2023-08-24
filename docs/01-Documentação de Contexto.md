@@ -25,12 +25,22 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação do Prospecta é justificada pelos seguintes motivos: 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+- Melhorar a Eficiência: A gestão manual de leads é morosa e sujeita a erros. Uma aplicação dedicada automatiza tarefas repetitivas, reduzindo o tempo gasto na coleta e organização de informações. Além disso, a aplicação possibilita centralizar as informações de leads em um único lugar, eliminando a dependência de planilhas e sistemas fragmentados. Isso reduzirá a possibilidade de perda de dados ou informações importantes e aumentará a eficiência operacional.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+- Aumentar a Conversão: A aplicação permitirá à equipe de vendas acessar informações detalhadas sobre cada lead, incluindo interações passadas, interesses e histórico de comunicação. Isso possibilitará um atendimento mais personalizado e eficaz, aumentando as chances de conversão. 
+
+- Otimizar Recursos: A aplicação permite que as equipes de vendas e de marketing foquem seus esforços nas oportunidades mais promissoras, economizando tempo e recursos. 
+Tomada de Decisão Embasada em Dados: Através da análise de dados detalhados, podem ser tomadas decisões estratégicas informadas sobre as campanhas de marketing, produtos mais atraentes e melhorias nas estratégias de conversão. 
+
+- Competitividade: A automação e a gestão avançada de leads são elementos-chave para se manter competitivo em um mercado cada vez mais dinâmico e concorrido. A aplicação proporcionará à empresa uma vantagem estratégica ao permitir que ela capitalize mais efetivamente as oportunidades de negócios.
+
+- Escalabilidade: À medida que a base de dados de leads cresce, a aplicação é escalável, possibilitando o gerenciamento de leads com eficiência, mesmo com um volume significativo de informações. 
+
+- Experiência do Cliente: Melhorar a experiência do cliente é crucial para reter clientes e fomentar o boca a boca positivo, e uma gestão eficaz de leads contribui diretamente para essa melhoria. 
+
+Em resumo, a criação da aplicação de cadastro e gestão de leads visa aprimorar a eficiência operacional, otimizar a conversão de leads em clientes, possibilitar análises embasadas em dados, facilitar a colaboração entre equipes e permitir a escalabilidade sustentável das atividades de vendas. Isso resultará em um impacto positivo nos resultados financeiros e na posição competitiva da empresa no mercado.
 
 ## Público-Alvo
 
