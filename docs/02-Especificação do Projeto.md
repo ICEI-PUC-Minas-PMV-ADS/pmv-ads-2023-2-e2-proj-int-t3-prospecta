@@ -48,8 +48,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Gerar um sistema de controle de leads | ALTA | 
+|RF-002| Apressentar em que etapa do processo de captação o lead se encontra | MÉDIA |
+|RF-003| Armazenar e permitir a visualização dos dados dos leads | ALTA |
+|RF-004| Permitir que os usuários façam "check" nas estapas de processo de captação | MÉDIA |
+|RF-004| Gerar planilha no excel com dados de leads | BAIXA |
+|RF-006| Categorizar os leads por localidade e preferências| ALTA |
+|RF-007| Ser utilizável tanto por empresas como por leads | ALTA |
+|RF-008| Possuir um formulário que armazene os dados dos leads | ALTA |
 
 ### Requisitos não Funcionais
 
