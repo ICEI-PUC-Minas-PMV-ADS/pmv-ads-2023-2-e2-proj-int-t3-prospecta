@@ -13,12 +13,14 @@ Reduzir o tempo necessário para concluir vendas é outra área crítica em que 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um programa de banco de dados para captação de leads, que ofereça recursos práticos e eficientes para gerenciar e acompanhar os potenciais clientes de uma empresa. Como objetivos específicos, podemos destacar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Otimizar o tempo para captação de clientes e reduzir os custos que seriam gastos com campanhas de marketing e prospecção para atrair possíveis consumidores.
+
+-  Permitir que o programa ofereça recursos práticos e eficientes para gerenciar e acompanhar os leads em todas as etapas do processo de captação, desde o primeiro contato até a conversão em cliente. 
+
+-  Possibilitar categorizar os leads através de filtros por local, perfil, interesse ou qualquer outro critério relevante para a empresa, facilitando a segmentação e a personalização das estratégias de captação. Otimizando assim, a produtividade da equipe de vendas, já que os leads estarão segmentados e qualificados.
+
 
 ## Justificativa
 
