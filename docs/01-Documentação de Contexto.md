@@ -57,6 +57,7 @@ Dessa forma, é possível dizer que o principal público-alvo desse projeto são
 **Personas**
 
 Sarah, 32 anos - Dona de um escritório de arquitetura
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/5260164f-2a33-4bb9-a3dc-87bf8f5c3ad8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/bb60a9c5-295d-4721-b619-3ce3f341d883)
+
 
 Sarah é uma arquiteta e empreendedora, junto com mais 4 sócios montou um escritório de arquitetura e tem obtido bastante sucesso no que diz respeito ao seu investimento. Entretanto, com o aumento de clientes, sua agenda estava ficava desorganizada. Muitos clientes chegaram até mesmo a sugerir que ela e seus parceiros se organizassem de modo a evitar que eles perdessem possíveis projetos. Dessa forma, o Prospecta é perfeito para ela. Ela implanta o sistema de vendas por leads e já facilita seu trabalho, com eles organizados da maneira mais vantajosa possível, seu problema é resolvido.
