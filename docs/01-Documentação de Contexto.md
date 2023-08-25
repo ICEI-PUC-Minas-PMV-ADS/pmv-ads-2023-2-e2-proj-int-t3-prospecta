@@ -56,3 +56,5 @@ Dessa forma, é possível dizer que o principal público-alvo desse projeto são
 
 **Personas**
 
+- Sarah, 32 anos - Dona de um escritório de arquitetura
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/5260164f-2a33-4bb9-a3dc-87bf8f5c3ad8)
