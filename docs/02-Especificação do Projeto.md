@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Criação de uma aplicação com interação  backend | ALTA |
 |RF-002| Permitir o cadastro de dados pelo próprio leads | ALTA |
 |RF-003| Permitir o cadastro de empresas | ALTA |
-|RF-004| Opção de favoritar leads | MÉDIA |
+|RF-004| Permitir que a empresa usuária favorite leads | MÉDIA |
 |RF-005| Permitir realizar Login | ALTA |
 |RF-006| Apressentar em que etapa do processo de captação o lead se encontra | MÉDIA |
 |RF-007| Armazenar e permitir a visualização dos dados dos leads | ALTA |
