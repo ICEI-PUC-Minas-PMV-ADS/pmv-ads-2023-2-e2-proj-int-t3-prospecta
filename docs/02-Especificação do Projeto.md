@@ -8,13 +8,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Sarah - Dona de um escritório de Arquitetura
+### Sarah - Dona de um escritório de Arquitetura
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/6bc8f901-d80d-46da-a7eb-04e85db55e71)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/28a3f462-4955-434b-8f66-5ea7c11bc521)
+
 
 Sarah é uma empresária de 42 anos bem sucedida no ramo de arquitetura, dona do Escritório ARQ&CO. Ela se formou em arquitetura e urbanismo aos 26 e aos 34 fundou seu próprio escritório especializado em projetos para seus clientes, que na época eram pouco mais que 10. Hoje, todavia, os números são bem maiores e ela mantém essa expectativa de crescimento para o futuro. Portanto devido à demanda, Sarah contratou uma equipe de auxiliares de escritório para realizarem prospecção dos leads para enfim repassar as informações necessárias para que Sarah e seus parceiros realizem os projetos. Tudo isso por meio de formulários preenchidos pelos potenciais clientes, de maneira que a elaboração de orçamentos fosse mais eficiente e ágil. Apesar dos esforços ainda sim ela lida com uma desorganização notável nos computadores dos escritórios no que diz respeito aos leads. Portanto, um sistema de gerenciamento de leads seria de grande uso de modo a pouparem tempo e esforço, melhorarem o atendimento ao cliente e, consequentemente, a qualidade do trabalho e o lucro adquirido.
 
-Ricardo - Professor de matemática em busca de um orçamento para uma reforma
+
+### Ricardo - Professor de matemática em busca de um orçamento para uma reforma
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/d586085c-172e-4ee1-9052-c265a15a20cd)
 
