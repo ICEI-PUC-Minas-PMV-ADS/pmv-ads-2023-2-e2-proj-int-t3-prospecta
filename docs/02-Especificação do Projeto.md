@@ -49,24 +49,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Criação de uma aplicação com interação  backend | ALTA |
-|RF-002| Permitir o cadastro de dados pelo próprio leads | ALTA |
-|RF-003| Permitir o cadastro de empresas | ALTA |
+|RF-002| Permitir o cadastro de dados pelo próprio lead a partir de formulário | ALTA |
+|RF-003| Permitir que empresas realizem Login através de cadastro de usuário | ALTA |
 |RF-004| Permitir que a empresa usuária favorite leads | MÉDIA |
-|RF-005| Permitir realizar Login | ALTA |
-|RF-006| Apressentar em que etapa do processo de captação o lead se encontra | MÉDIA |
-|RF-007| Armazenar e permitir a visualização dos dados dos leads | ALTA |
-|RF-008| Permitir que os usuários façam "check" nas estapas de processo de captação | MÉDIA |
-|RF-009| Gerar planilha no excel com dados de leads | BAIXA |
-|RF-010| Categorizar os leads por localidade e preferências| ALTA |
-|RF-011| Ser utilizável tanto por empresas como por leads | ALTA |
-|RF-012| Geração de um formulário que armazene os dados dos leads | ALTA |
+|RF-005| Permitir que a empresa usuária gerencie em que etapa do processo de captação o lead se encontra | MÉDIA |
+|RF-006| Armazenar e permitir a visualização dos dados dos leads no banco de dados | ALTA |
+|RF-007| Permitir que os dados dos leads sejam exportados em formato XLS | BAIXA |
+|RF-008| Permitir a filtragem dos leads a partir de categorias tais como localidade, preferência, entre outros | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Deve ser compatível para os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge), proporcionando experiência semelhante ao usuário | ALTA | 
+|RNF-002| Deve ser responsivo para adaptar em diferentes dispositivos e tamanho de telas |  ALTA | 
+|RNF-003| Deve estar em conformidade com as diretrizes de acessibilidade a D.V. (suporte para leitores de tela e texto descritivo de imagens) | BAIXA | 
+|RNF-004| O sistema deve sinalizar o usuário quando alguma operação está demorando mais que o comum. O tempo de resposta não deve ultrapassar 15 segundos | MÉDIA |
+|RNF-005|A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -90,8 +89,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|02| A linguagem de programação usada no backend deve ser o C#|
+|03| Deve ser utilizado um banco de dados relacional|
+|04| O único framework para frontend permitido deve ser o Bootstrap|
+|05| O código não poderá ser desenvolvido a partir de IA generativa|
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
