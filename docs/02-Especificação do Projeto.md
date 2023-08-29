@@ -8,19 +8,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Sarah - Dona de um escritório de Arquitetura
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/6bc8f901-d80d-46da-a7eb-04e85db55e71)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Sarah é uma empresária de 42 anos bem sucedida no ramo de arquitetura, dona do Escritório ARQ&CO. Ela se formou em arquitetura e urbanismo aos 26 e aos 34 fundou seu próprio escritório especializado em projetos para seus clientes, que na época eram pouco mais que 10. Hoje, todavia, os números são bem maiores e ela mantém essa expectativa de crescimento para o futuro. Portanto devido à demanda, Sarah contratou uma equipe de auxiliares de escritório para realizarem prospecção dos leads para enfim repassar as informações necessárias para que Sarah e seus parceiros realizem os projetos. Tudo isso por meio de formulários preenchidos pelos potenciais clientes, de maneira que a elaboração de orçamentos fosse mais eficiente e ágil. Apesar dos esforços ainda sim ela lida com uma desorganização notável nos computadores dos escritórios no que diz respeito aos leads. Portanto, um sistema de gerenciamento de leads seria de grande uso de modo a pouparem tempo e esforço, melhorarem o atendimento ao cliente e, consequentemente, a qualidade do trabalho e o lucro adquirido.
+
+Ricardo - Professor de matemática em busca de um orçamento para uma reforma
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/a7a0d0e4-f335-43e7-95e5-d606094e3f7b)
+
+Ricardo é um professor de faculdade, 60 anos, é casado com sua esposa há mais de 30 anos e vivem juntos há quase 40. Ricardo leciona matemática, gosta bastante do seu trabalho mas ama o conforto de estar em casa e relaxar. Entretanto já a algum tempo, sua esposa havia expressado o desejo de reformar a casa e pediu para que Ricardo cuidasse disso, e por outro lado, Ricardo nunca teve tempo em sua rotina apertada de professor para realizar uma negociação decente. Todos os profissionais demoravam para responder, pediam para conversar por chamada ou até mesmo requisitavam sua presença nos seus respectivos escritórios, para no final não haver nenhum acordo concluído. Tudo que Ricardo precisava era uma maneira de contatar uma empresa de maneira rápida e prática, e só ser contatado novamente com uma proposta já terminada e partir para a negociação. Dessa maneira, seria de grande ajuda para alguém como o Ricardo, ter acesso a uma maneira mais prática e dinâmica de obtenção de orçamento, pois mesmo diversas empresas utilizando os leads como forma de contato, a maioria delas devido a falta de organização não dão uma resposta em tempo hábil. Um sistema de gerenciamento de leads por parte das empresas contatadas por ele, por exemplo, resolveria seus problemas.
+
 
 ## Histórias de Usuários
 
