@@ -16,7 +16,7 @@ Sarah é uma empresária de 42 anos bem sucedida no ramo de arquitetura, dona do
 
 Ricardo - Professor de matemática em busca de um orçamento para uma reforma
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/a7a0d0e4-f335-43e7-95e5-d606094e3f7b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/d586085c-172e-4ee1-9052-c265a15a20cd)
 
 Ricardo é um professor de faculdade, 60 anos, é casado com sua esposa há mais de 30 anos e vivem juntos há quase 40. Ricardo leciona matemática, gosta bastante do seu trabalho mas ama o conforto de estar em casa e relaxar. Entretanto já a algum tempo, sua esposa havia expressado o desejo de reformar a casa e pediu para que Ricardo cuidasse disso, e por outro lado, Ricardo nunca teve tempo em sua rotina apertada de professor para realizar uma negociação decente. Todos os profissionais demoravam para responder, pediam para conversar por chamada ou até mesmo requisitavam sua presença nos seus respectivos escritórios, para no final não haver nenhum acordo concluído. Tudo que Ricardo precisava era uma maneira de contatar uma empresa de maneira rápida e prática, e só ser contatado novamente com uma proposta já terminada e partir para a negociação. Dessa maneira, seria de grande ajuda para alguém como o Ricardo, ter acesso a uma maneira mais prática e dinâmica de obtenção de orçamento, pois mesmo diversas empresas utilizando os leads como forma de contato, a maioria delas devido a falta de organização não dão uma resposta em tempo hábil. Um sistema de gerenciamento de leads por parte das empresas contatadas por ele, por exemplo, resolveria seus problemas.
 
