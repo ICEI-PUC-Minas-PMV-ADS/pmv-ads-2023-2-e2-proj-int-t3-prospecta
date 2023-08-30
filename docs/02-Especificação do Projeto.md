@@ -33,7 +33,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Sarah  | Armazenar as informações dos meus clientes no sistema de geração de leads |Para visualizar as informações de forma ágil e eficiente, melhorando assim o atendimento e a elaboração de orçamentos. |
 |Sarah | Acompanhar o status dos leads | Para manter um relacionamento próximo e satisfatório com os clientes. |
 |Sarah | Visualizar os leads por condição, local e/ou outros fatores | Para priorizar os mais relevantes e otimizar o meu tempo e o da minha equipe. |
-|Ricardo       | Alterar                 | Alterar |
+|Ricardo  | Enviar meus requisitos para orçamentos de reforma |Para obter orçamentos de forma ágil e ter a liberdade de avaliar as propostas no meu próprio ritmo, sem pressões temporais. |
+|Ricardo  | Cadastrar dados via formulário |Para possibilitar que empresas de arquitetura compreendam meus dados e me atendam de acordo com a minha rotina. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
