@@ -18,7 +18,7 @@ Reduzir o tempo necessário para concluir vendas é outra área crítica em que 
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de um programa de banco de dados para captação de leads, que ofereça recursos práticos e eficientes para gerenciar e acompanhar os potenciais clientes de uma empresa. Como objetivos específicos, podemos destacar:
+O objetivo geral deste trabalho é a criação de uma aplicação para captação e gerenciamento de leads, que ofereça recursos práticos e eficientes para gerenciar e acompanhar os potenciais clientes de uma empresa. Como objetivos específicos, podemos destacar:
 
 - Otimizar o tempo para captação de clientes e reduzir os custos que seriam gastos com campanhas de marketing e prospecção para atrair possíveis consumidores.
 
