@@ -40,7 +40,26 @@ A Metodologia Ágil escolhida para o gerenciamento do projeto é a Scrum. A part
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o processo de desenvolvimento se dá a partir da definição do Product Backlog e do planejamento e realização de 05 (cinco) Sprints, conforme descrito a seguir. 
+
+A organização objetiva do BackLog, bem como a divisão e distribuição dos respectivos itens, se dá a partir do Quadro de Tarefas denominado [Gerenciamento de Projeto: Prospecta](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/493/views/1), semelhante ao Kanban, através da ferramenta GitHub Project, encontrando-se hospedado nesse mesmo repositório. A estruturação do quadro se dá a partir das seguintes colunas:
+
+- **Backlog:** contém todos itens do backlog do produto que ainda serão abordados nas próximas sprints.
+- **To Do:** contém os itens que serão revisados e realizados na sprint atual. 
+- **In Progress:** diz respeito aos itens que estão em desenvolvimento.
+- **In Review:** itens que já foram desenvolvidos, mas precisam de revisão e validação de outros integrantes da equipe.
+- **Done:** itens já desenvolvidos, revisados, validados e entregues.
+
+### Product Backlog
+
+
+| Sprint | Período  | Itens | Status |
+|--------|-------------|---------------------------------------------|-----------|
+|Sprint 1|01/08 a 03/09| **Definição do problema**<br> **Proposta de solução**<br> **Personas e Histórias de usuários**<br> **Requisitos e Restrições**<br> **Diagrama de Casos de Uso**| Done |
+|Sprint 2|04/09 a 24/09| **Metodologia**<br> **Diagrama de Classes**<br> **Diagrama de Fluxo**<br> **Wireframes**<br> **Modelo Entidade Relacionamento**<br> **Projeto da Base de Dados**<br> **Plano de Testes de Software**<br> **Plano de Testes de Usabilidade**| In Progress |
+|Sprint 3|25/09 a 22/10| **Template Padrão do Site**<br> **Prova de Conceito da Arquitetura**<br> **Programação das Funcionalidades**<br> **Realização e Registro de Testes de Software**<br> **Realização e registro dos testes de usabilidade** |To Do|
+|Sprint 4|23/10 a 19/11| **Programação das demais funcionalidades**<br> **Realização e Registro dos demais Testes de Software**<br> **Realização e registro dos demais testes de usabilidade** | To Do |
+|Sprint 5|20/11 a 06/12| **Relatório do Teste de Software**<br> **Relatório do teste de usabilidade**<br> **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
  
 ### Ferramentas
 
@@ -51,6 +70,7 @@ As ferramentas empregadas no projeto são:
 |**Editor de código**|Visual Studio Code|
 |**Comunicação**|Microsoft Teams|
 |**Wireframe**|Marvel App |
+|**Diagramas**|Astah e Creately|
 |**Gerenciamento do Projeto**|Github Project|
 |**Hospedagem da Solução**|Github Pages|
 
