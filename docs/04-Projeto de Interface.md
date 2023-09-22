@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-Para planejar e projetar a nossa plataforma, usamos a técnica de wireframes, que são representações visuais simplificadas das interfaces de usuário. Para criar os wireframes, usamos o software MarveApp, que permite criar protótipos interativos e realistas. Com o MarvelApp, pudemos simular o comportamento e a interação das telas, além de aplicar alguns elementos visuais, como cores e imagens.
+Para planejar e projetar a nossa plataforma, usamos a técnica de wireframes, que são representações visuais simplificadas das interfaces de usuário. Para criar os wireframes, usamos o software MarvelApp, que permite criar protótipos interativos e realistas. Com o MarvelApp, pudemos simular o comportamento e a interação das telas, além de aplicar alguns elementos visuais, como cores e imagens.
 
 ## Diagrama de Fluxo
 
