@@ -34,18 +34,23 @@ Nesta aba, você vai encontrar os wireframes da nossa aplicação. Os wireframes
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/f4649d7b-b511-4c15-bc25-e1a46267139d)
 
 Tela inicial - Esta é a página de entrada, onde apresenta as funcionalidades a disposição do usuário, e a apresentação do serviço oferecido pela aplicação.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/bcf103ff-bea1-4af1-8276-fd02a725ce96)
 
-Tela de cadastro - Esta é a página onde a empresa pode se registrar no site, fornecendo seus dados básicos, como nome, e-mail, telefone e senha.
+Tela de cadastro - Esta é a página onde a empresa pode se registrar no site, fornecendo seus dados básicos, como nome, e-mail, telefone, senha e outros.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/5dd6c997-c1dd-4ddc-ab6a-d83deb8c1e93)
 
 Tela de login -  Esta é a página onde a empresa pode fazer o login no site, usando seu e-mail e senha cadastrados.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/dfde2a6f-42a0-45d1-b595-d20949303336)
 
 Tela de usuário - Na página de usuário, a empresa pode ver os possíveis clientes no canto inferior direito e marcar os que mais lhe interessam com o ícone da estrela, que ficarão disponíveis no campo central da tela. No canto inferior direito, a empresa também pode acompanhar o andamento do negócio com o cliente escolhido.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/96091b5d-d253-4540-a76c-3fba99201bed)
 
 Tela de cadastro do Lead -  Esta é a página onde o cliente pode se cadastrar no formulário para receber uma demonstração do serviço da empresa. Dentre eles o cliente deve informar seu nome, e-mail, telefone e o tipo de interesse que possui.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/9c478bbf-04c9-43a9-858f-8da5d04648ee)
 
 
