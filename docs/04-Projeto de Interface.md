@@ -51,7 +51,7 @@ Tela de usuário - Na página de usuário, a empresa pode ver os possíveis clie
 
 Tela de cadastro do Lead -  Esta é a página onde o cliente pode se cadastrar no formulário para receber uma demonstração do serviço da empresa. Dentre eles o cliente deve informar seu nome, e-mail, telefone e o tipo de interesse que possui.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/9c478bbf-04c9-43a9-858f-8da5d04648ee)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/39b2ed06-4163-4570-811e-1e55789c1829)
 
 
 
