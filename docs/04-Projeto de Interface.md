@@ -20,17 +20,39 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > **Links Úteis**:
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
+
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Nesta aba, você vai encontrar os wireframes da nossa aplicação. Os wireframes mostram as principais telas e funcionalidades da aplicação, como o cadastro, o login, usuário e tela para o cliente.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+> - Página inicial: Na página inicial, o usuário pode fazer acessos por meio de: Cadastro, Login, Usuário e/ou Lead.
+> - Cadastro: A empresa pode se cadastrar a partir da página inicial.
+> - Login: A empresa pode fazer o login na página inicial depois de se cadastrar.
+> - Usuário: A empresa será levada para a tela de usuário depois de fazer o login.
+> - Lead: O cliente pode ir para a tela Lead pela página inicial para se cadastrar no formulário.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/f4649d7b-b511-4c15-bc25-e1a46267139d)
+
+Tela inicial - Esta é a página de entrada, onde apresenta as funcionalidades a disposição do usuário, e a apresentação do serviço oferecido pela aplicação.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/bcf103ff-bea1-4af1-8276-fd02a725ce96)
+
+Tela de cadastro - Esta é a página onde a empresa pode se registrar no site, fornecendo seus dados básicos, como nome, e-mail, telefone e senha.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/5dd6c997-c1dd-4ddc-ab6a-d83deb8c1e93)
+
+Tela de login -  Esta é a página onde a empresa pode fazer o login no site, usando seu e-mail e senha cadastrados.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/dfde2a6f-42a0-45d1-b595-d20949303336)
+
+Tela de usuário - Na página de usuário, a empresa pode ver os possíveis clientes no canto inferior direito e marcar os que mais lhe interessam com o ícone da estrela, que ficarão disponíveis no campo central da tela. No canto inferior direito, a empresa também pode acompanhar o andamento do negócio com o cliente escolhido.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/96091b5d-d253-4540-a76c-3fba99201bed)
+
+Tela de cadastro do Lead -  Esta é a página onde o cliente pode se cadastrar no formulário para receber uma demonstração do serviço da empresa. Dentre eles o cliente deve informar seu nome, e-mail, telefone e o tipo de interesse que possui.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/128649539/9c478bbf-04c9-43a9-858f-8da5d04648ee)
+
+
+
+
+
+
+
+
+
