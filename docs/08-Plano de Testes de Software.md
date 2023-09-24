@@ -1,6 +1,7 @@
 # Plano de Testes de Software
 
 A seguir, os cenários levantados e enumerados a partir de casos de testes para a cobertura da eficiência dos requisitos da aplicação.
+
  
 | **Caso de Teste** 	| **CT-01 – Cadastro de Leads** 	|
 |:---:	|:---:	|
@@ -41,12 +42,14 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Passos 	| - Acessar o a página de cadasto de usuário <br> -	Preencher o campo de e-mail com um endereço de e-mail inválido (exemplo: "invalido.com") - Clicar em "Cadastrar" |
 |Critério de Êxito | O sistema exibirá mensagen de erro informando que o formato de e-mail é inválido e não permitirá o cadastro até que um formato válido seja preenchido|
 
+
 | Caso de Teste 	| CT-06 – Aceitação de endereço de e-mail único |
 |:---:	|:---:	|
 |Requisitos Associados |RF-002 e RNF-005|
 | Objetivos do Teste 	| Verificar se o sistema permite o cadastro de empresas diferentes com um mesmo endereço de e-mail |
 | Passos 	| - Acessar o a página de cadasto de usuário <br> - Concuir o cadastro de uma empresa usuária com um endereço de e-mail válido <br> - Acessar novamente a página de cadastro <br> - Tentar cadastrar uma nova empresa com o mesmo endereço de e-mail da empresa anterior |
 |Critério de Êxito | O sistema exibirá mensagen de erro relatando que o e-mail informado já está em uso e não permitirá o cadastro até que seja informado um novo endereço de e-mail |
+
 
 | Caso de Teste 	| CT-07 – Verificação de Dados Exclusivos |
 |:---:	|:---:	|
@@ -55,12 +58,14 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Passos 	| - Acessar o a página de cadasto de usuário <br> - Concuir o cadastro de uma empresa usuária com um CNPJ válido <br> - Acessar novamente a página de cadastro <br> - Tentar cadastrar uma nova empresa com o mesmo CNPJ da empresa anterior |
 |Critério de Êxito | O sistema exibirá mensagen de erro relatando que o CNPJ informado já pertence a outro usuário e não permitirá o cadastro |
 
+
 | Caso de Teste 	| CT-08 – Confirmação de Senha |
 |:---:	|:---:	|
 |Requisitos Associados |RF-002 e RNF-005|
 | Objetivos do Teste 	| Garantir que o sistema exige confirmação de senha durante o cadastro de novo usuário |
 | Passos 	| - Acessar o a página de cadasto de usuário <br> - Preencher os campos de forma válida até o campo "Senha" <br> - Preencher o campo "Confirmação de Senha" de forma diferente do campo "Senha" <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | O sistema exibirá mensagen de erro relatando que as senhas não coincidem e não permitirá o cadastro até que os campos "Senha" e "Confirmação de Senha" sejam correspondentes|
+
  
 | Caso de Teste 	| CT-09 – Realização de Login |
 |:---:	|:---:	|
@@ -69,12 +74,61 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Passos 	| - Acessar o a página de cadasto de usuário <br> - Realizar o cadastro completo de usuário <br> - Acessar a página de login <br> - Preencher os campos de "e-mail" e "senha" com as informações cadastradas nos anteriores <br> - Clicar em "Acessar o Prospecta" |
 |Critério de Êxito | O sistema autenticará o usuário e este terá acesso ao seu perfil e às demais funcionalidades do sistema|
 
+
 | Caso de Teste 	| CT-10 – Realização de Login com Credenciais Erradas |
 |:---:	|:---:	|
 |Requisitos Associados |RF-002|
 | Objetivos do Teste 	| Verificar se o sistema aceita login com informações não cadastradas anteriormente|
 | Passos 	| - Acessar a página de login <br> - Preencher os campos de "e-mail" e "senha" com informações não cadastradas anteriormente <br> - Clicar em "Acessar o Prospecta" |
-|Critério de Êxito | O sistema exibirá mensagem de erro informando que as credenciais informados são inválidas e impedirá o acesso a um perfil e demais funcionalidades do sistema|
+|Critério de Êxito | O sistema exibirá mensagem de erro informando que as credenciais informadas são inválidas e impedirá o acesso a um perfil e demais funcionalidades do sistema|
+
+
+| Caso de Teste 	| CT-11 – Vinculação de Lead à Empresa Usuária |
+|:---:	|:---:	|
+|Requisitos Associados |RF-003|
+| Objetivos do Teste 	| Verificar se uma empresa usuária pode vincular um Lead ao seu perfil|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar e ampliar as informações de um dos leads exibidos <br> - Clicar no botão de estrela "Vincular à Minha Empresa" |
+|Critério de Êxito | O lead deve ser vinculado à conta da empresa usuária e estar cadastrado e exibido na página de "Favoritos"|
+
+| Caso de Teste 	| CT-12 – Vinculação concomitante de mais de um Lead |
+|:---:	|:---:	|
+|Requisitos Associados |RF-003|
+| Objetivos do Teste 	| Verificar se uma empresa usuária pode vincular mais de um lead, ao mesmo tempo, ao seu perfil|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar mais de um lead dentre os exibidos <br> - Clicar no botão "Vincular os Leads Selecionados à Minha Empresa" |
+|Critério de Êxito | Todos os leads selecionados devem ser vinculado à conta da empresa usuária e ser exibidos na página de "Favoritos"|
+
+| Caso de Teste 	| CT-13 – Vinculação de leads duplicados |
+|:---:	|:---:	|
+|Requisitos Associados |RF-003|
+| Objetivos do Teste 	| Verificar se o sistema impede que a empresa usuária vincule um mesmo lead ao seu perfil mais de uma vez|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar vários leads, dente eles, algum que já seja vinculado ao usuário da empresa <br> - Clicar no botão "Vincular os Leads Selecionados à Minha Empresa" |
+|Critério de Êxito | O sistema deve exibir mensagem de erro informando que um ou mais leads selecionados já se encontram vinculados à conta da empresa e impedir a conclusão da vinculação |
+
+| Caso de Teste 	| CT-14 – Alteração das Etapas de Captação de Leads |
+|:---:	|:---:	|
+|Requisitos Associados |RF-004|
+| Objetivos do Teste 	| Verificar se a empresa usuária pode alterar a etapa de captação do lead|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar um dos leads vinculados à empresa <br> - Alterar a a etapa em que o lead se encontra (por exemplo, mudar de "Verificação de Potencial" para "Em processo de Contatação")|
+|Critério de Êxito | O sistema deve permitir a alteração da etapa de contatação e passar a exibir a etapa escolhida pela empresa usuária |
+
+| Caso de Teste 	| CT-15 – Histórico do Progresso de Etapas de Captação de Leads |
+|:---:	|:---:	|
+|Requisitos Associados |RF-004|
+| Objetivos do Teste 	| Verificar se o sistema registra todas as etapas pelas quais o Lead passou no processo de captação|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar um dos leads vinculados à empresa <br> - Alterar a a etapa em que o lead se encontra várias vezes|
+|Critério de Êxito | O sistema deve exibir, na opção de "Progresso", um histórico em que conste as etapas pelas quais o Lead passou no processo de captação, contendo as datas correspondentes às alterações |
+
+| Caso de Teste 	| CT-16 – Notificação de Alteração da Etapa de Captação de Leads |
+|:---:	|:---:	|
+|Requisitos Associados |RF-004|
+| Objetivos do Teste 	| Verificar se o sistema notifica a empressa usuária quanto à alteração de etapa de captação de leads|
+| Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar um dos leads vinculados à empresa <br> - Alterar a a etapa em que o lead se encontra|
+|Critério de Êxito | O sistema deve exibir um alerta ou notificação para a empresa usuária, informando que a etapa de captação de um lead específico foi alterada |
+
+
+
+
+
 
 
 
