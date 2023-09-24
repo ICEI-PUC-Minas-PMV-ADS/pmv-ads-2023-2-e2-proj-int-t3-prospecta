@@ -1,31 +1,30 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
-
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
+A seguir, os cenários levantados e enumerados a partir de casos de testes para a cobertura da eficiência dos requisitos da aplicação.
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastro de Leads** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|	Requisitos Associados 	| RF-001 e RF-005 |
+|Objetivos do Teste| Verificar se o cadastro de leads é possível através de preenchimento de formulário |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Cadastrar dados para contato" <br> - Preencher os campos obrigatórios (nome completo, cpf, endereço, telefone, e-mail, serviços/produtos de interesse) <br> - Clicar em "Enviar"|
+|Critério de Êxito | O lead deve ser cadastrado no sistema e os dados enviados devem ser armazenados corretamente no banco de dados |
+
+
+| Caso de Teste 	| CT-02 – Validação de Campos Obrigatórios do Formulário de Cadastro de Leads	|
+|:---:	|:---:	|
+|Requisitos Associados |RF-001, RF-005 e RNF-005|
+| Objetivos do Teste 	| Examinar se os campos obrigatórios do formulário estão sendo verificados |
+| Passos 	| - Acessar a página de formulário de cadastro de leads <br> - Preencher os campos obrigatórios, mas deixar um ou mais campos em branco <br> - Clicar em "Enviar" |
+|Critério de Êxito | O sistema exibirá mensagens de erro informando sobre os campos obrigatórios em branco e não permitirá o envio do formulário até que estes estejam preenchidos|
+
+
+| Caso de Teste 	| CT-03 – Validação do Formato de Número de Telefone |
+|:---:	|:---:	|
+|Requisitos Associados |RF-001, RF-005 e RNF-005|
+| Objetivos do Teste 	| Verificar se o sistema aceita somente números de telefone válidos |
+| Passos 	| - Acessar a página de formulário de cadastro de leads <br> - Preencher o campo de número de telefone com um formato inválido (exemplo: "0000") <br> - Clicar em "Enviar" |
+|Critério de Êxito | O sistema exibirá mensagen de erro informando que o formato de número de telefone é inválido e não permitirá o envio do formulário até que um formato válido seja preenchido|
+
 
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
