@@ -1,6 +1,6 @@
 # Plano de Testes de Usabilidade
 
-Esta seção apresenta o planejamento dos procedimentos, etapas e especificações de testes que serão executados por uma amostra de usuários e analisados a partir de relatórios. 
+Esta seção apresenta o planejamento dos procedimentos, especificações e métodos de testes que serão executados por uma amostra de usuários e analisados a partir de relatórios. 
 
 ## Objetivos
 
