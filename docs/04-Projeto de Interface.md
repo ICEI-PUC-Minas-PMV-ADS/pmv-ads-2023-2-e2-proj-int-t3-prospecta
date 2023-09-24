@@ -5,17 +5,15 @@ Para planejar e projetar a nossa plataforma, usamos a técnica de wireframes, qu
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O diagrama a seguir apresenta o estudo do fluxo de interação do usuário com o sistema interativo.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+O diagrama inicia na tela na tela inicial, onde a empresa ou o lead podem se registrar no sistema através de um formulário. Ambas entidades deverão informar dados básicos. Caso o lead já tenha preenchido esse formulário, o mesmo não poderá realizar mais ações, já a empresa possui a possibilidade de editar seus dados. Por exemplo, caso a empresa queira adicionar mais uma filial no seu registro, ela o poderá realizar.
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+Após o cadastro das entidades Lead e Empresa, haverá o cruzamento de dados. Tendo siso realizado esse cruzamento, empresas cadastradas no sistema poderão filtrar leads, seja um filtro baseado por exemplo na localização ou no interesse do lead. Após esse filtro a empresa vincularia esses leads ao seu perfil e enviaria os dados dos leads vinculados à suas filiais. Obviamente, mandando os dados de leads para filiais que possuam certas similaridades com os dados do lead, como por exemplo filiais na mesma localização do lead e que possam suprir a área de interesse do lead por produtos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+Finalmente, tendo sido os dados de leads enviados, a empresa poderá realizar um gerenciamento da captação dos leads através de "check boxes" de etapas de captação. Assim a empresa possuirá pleno conhcimento e controle de qual etapa de captação cada lead está no processo de venda de produtos ou serviços.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
-
+![diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/124836743/f80e75c4-8974-4fae-a052-2e4477e5eb69)
 
 ## Wireframes
 
