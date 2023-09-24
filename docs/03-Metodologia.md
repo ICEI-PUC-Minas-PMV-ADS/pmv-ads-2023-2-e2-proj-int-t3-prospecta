@@ -56,7 +56,7 @@ A organização objetiva do BackLog, bem como a divisão e distribuição dos re
 | Sprint | Período  | Itens | Status |
 |--------|-------------|---------------------------------------------|-----------|
 |Sprint 1|01/08 a 03/09| **Definição do problema**<br> **Proposta de solução**<br> **Personas e Histórias de usuários**<br> **Requisitos e Restrições**<br> **Diagrama de Casos de Uso**| Done |
-|Sprint 2|04/09 a 24/09| **Metodologia**<br> **Diagrama de Classes**<br> **Diagrama de Fluxo**<br> **Wireframes**<br> **Modelo Entidade Relacionamento**<br> **Projeto da Base de Dados**<br> **Plano de Testes de Software**<br> **Plano de Testes de Usabilidade**| In Progress |
+|Sprint 2|04/09 a 24/09| **Metodologia**<br> **Diagrama de Classes**<br> **Diagrama de Fluxo**<br> **Wireframes**<br> **Modelo Entidade Relacionamento**<br> **Projeto da Base de Dados**<br> **Plano de Testes de Software**<br> **Plano de Testes de Usabilidade**| Done |
 |Sprint 3|25/09 a 22/10| **Template Padrão do Site**<br> **Prova de Conceito da Arquitetura**<br> **Programação das Funcionalidades**<br> **Realização e Registro de Testes de Software**<br> **Realização e registro dos testes de usabilidade** |To Do|
 |Sprint 4|23/10 a 19/11| **Programação das demais funcionalidades**<br> **Realização e Registro dos demais Testes de Software**<br> **Realização e registro dos demais testes de usabilidade** | To Do |
 |Sprint 5|20/11 a 06/12| **Relatório do Teste de Software**<br> **Relatório do teste de usabilidade**<br> **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
