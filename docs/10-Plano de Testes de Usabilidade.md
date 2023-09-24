@@ -31,11 +31,11 @@ Os critérios de escolha de participantes são:
 
 A especificação desses critérios, a fim de que sejam consideradas diferentes perspectivas de usabilidade dentro da amostra selecionada, se dará da seguinte maneira:
 
-**1.** Usuário que represente o público alvo "Lead", que acessará a aplicação através de dispositivo móvel.
-**2.** Usuário que represente o público alvo "Lead", acessará a aplicação através de um computador e que possua, pelo menos, as seguintes diferenças em relação ao anterior: gênero, idade, interesses de serviço/produto.
-**3.** Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um computador. 
-**4.** Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um navegador diferente do anterior e que possua, no mínimo, as seguintes caracterísicas divergentes do usuário anterior: área de atuação da empresa que representa, porte da empresa que representa e idade.
-**5** Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um dispositivo móvel e que possua, ao menos, as seguintes caracterísicas divergentes dos usuários anteriores: área de atuação da empresa que representa, porte da empresa que representa e gênero.
+1. Usuário que represente o público alvo "Lead", que acessará a aplicação através de dispositivo móvel.
+2. Usuário que represente o público alvo "Lead", acessará a aplicação através de um computador e que possua, pelo menos, as seguintes diferenças em relação ao anterior: gênero, idade, interesses de serviço/produto.
+3. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um computador.
+4. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um navegador diferente do anterior e que possua, no mínimo, as seguintes caracterísicas divergentes do usuário anterior: área de atuação da empresa que representa, porte da empresa que representa e idade.
+5. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um dispositivo móvel e que possua, ao menos, as seguintes caracterísicas divergentes dos usuários anteriores: área de atuação da empresa que representa, porte da empresa que representa e gênero.
 
 
 
