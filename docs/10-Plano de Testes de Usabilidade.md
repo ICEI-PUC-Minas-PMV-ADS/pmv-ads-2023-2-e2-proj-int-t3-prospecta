@@ -75,19 +75,63 @@ O métodos a serem utilizados serão:
 - Observação direta, através do registro de imagens da reunião
 - Medição de tempo de realização das tarefas executadas
 - Avaliação do desempenho da aplicação em relação às tarefas executadas
-- Avaliação da opinião do usuário através de formulário de feedback
+- Avaliação da opinião do usuário 
 
 Desta forma, os participantes realizarão tarefas na aplicação, sob condições e instruções específicas. Concomitantemente, o condutor dos testes observará em silêncio, tomará notas, registrará o comportamento do usuário e coletará quaisquer depoimentos orais, bem como o formulário de feedback a ser preenchido no final da realização de atividades. 
 
 O condutos ainda será responsável por revisar o registro de imagens, com foco na tela compartilhada pelo usuário e registrará o comportamento da aplicação, casos de sucesso e eventuais erros de resposta do software.
 
+## Recursos
 
+Os recursos necessários para a condução dos testes de usabilidade serão:
 
+- Computadores e dispositivos móveis para os usuários voluntários
+- Computadores e dispositivos móveis para os condutores de testes
+- Camêra ou webcam
+- Microfone para captar áudio no dispositivo correspondente
+- Gravador de Tela e Áudio
+- Aplicativo Zoom para a reunião em que os testes serão conduzidos remotamente
+- Acesso à internet
+- Acesso à diferentes navegadores padrões (Google Chrome, Firefox, Microsoft Edge)
+- Solução devidamente Hospedada
 
+## Tarefas dos Participantes Voluntários
 
+Os participantes serão instruídos a realizarem tarefas na aplicação, através da apresentação de um guia de instruções por escrito. As tarefas a serem executadas serão realizadas em navegadores padrões diferentes, de acordo com o usuário, bem como em diferentes dispositivos. O escopo de tarefas a serem executadas compreende:
 
+1. Acessar a homepage da aplicação inserindo o endereço do site na barra da aplicação.
+2. Realizar livre navegação pela aplicação, sem atender a critérios específicos.
+3. Realizar cadastro de Lead acessando, no site, a página de formulários, inserindo dados fictícios e não relacionados a pessoa física ou jurídica existente (se aplicável) ou associados a si mesmo.
+4. Realizar cadastro de Lead acessando um link de redirecionamento fornecido pelo condutor de teste, inserindo dados fictícios e não relacionados à pessoa física ou jurídica existente (se aplicável) ou associados a si mesmo.
+5. Realizar cadastro de empresa usuária, através da opção de "Cadastrar Empresa", inserindo dados fictícios e não relacionados à pessoa jurídica existente (se aplicável) ou associados à própria empresa.
+6. Fazer login na aplicação.
+7. Navegar através das funcionalidades de gerenciamento de leads disponíveis para o perfil de usuário.
+8. Realizar buscas de leads utilizando diferentes filtros disponíveis.
+9. Vincular mais de um lead ao perfil de empresa usuária.
+10. Excluir mais de um lead da lista de leads vinculados ao perfil da empresa usuária.
+11. Alterar a etapa em que um lead se encontra no processo de captação de clientes.
+12. Exportar os dados dos leads em formato XLS.
+13. Abrir o documento XLS em aplicativo de leitura de planilhas compatível.
 
+## Dados de Coleta
 
+Durante os testes de usabilidade, os seguintes dados serão coletados pelo condutor de testes:
 
+- Notas com observações detalhadas sobre o comportamento dos participantes voluntários
+- Tempo de conclusão de cada uma das tarefas solicitadas
+- Problemas e empencilhos encontrados pelos participantes durante a execução de tarefas
+- Métricas de desempenho da aplicação, como tempo de resposta para executar funções
+- Comportamento da aplicação em diferentes tipos de navegadores
+- Comportamento da aplicação em diferentes tipos de tela, com ênfase na responsividade dos elementos de interface
+- Registros de erros ou falhas técnicas
+- Feedback verbal dos voluntários
+- Formulário de Feedback de Usabilidade da Aplicação Prospecta
 
+## Métricas de Análise dos Resultados
 
+Depois de finalizados os testes, procederemos à análise dos resultados e à documentação das descobertas em um relatório de usabilidade. Com base nos resultados dos testes, identificaremos quaisquer melhorias e ajustes necessários na interface da aplicação. As métricas para este fim, serão:
+
+- Porcentagem de conclusão das tarefas sugeridas para cada usuário
+- Média de tempo de conclusão das tarefas realizadas pelos voluntários
+- Números de erro por tarefa executada
+- Escala SUS - System Usability Scale, para medir o nível de satisfação do usuário, a partir do Formulário de Feedback de Usabilidade da Aplicação Prospecta
