@@ -139,7 +139,69 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Passos 	| - Acessar a página de formulário de cadastro de leads <br> - Realizar o cadastro completo de um novo lead <br> - Acessar a homepage do sistema <br> - Clicar na opção "Desejo excluír meus dados de cadastro" <br> - Preencher os campos de "nome" e "cpf"  <br> - Confirmar o desejo de exclusão de dados <br> - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Buscar o lead anteriormente excluído |
 |Critério de Êxito | A empresa usuária não deve ser capaz de visualizar no sistema informações sobre o Lead cujos dados foram anteriormente excluídos |
 
+| Caso de Teste 	| CT-19 – Busca de Leads utilizando a Categoria Localização|
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível localizar leads usando o filtro de localização |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar o filtro de buscas "Localização" <br> - Selecionar os estados ou cidades que deseja filtrar <br> - Clicar em Pesquisar |
+|Critério de Êxito | O sistema deve retornar uma lista contendo somente os leads que forneceram informações de localidade durante o cadastro que correspondam aos filtros selecionados |
 
+| Caso de Teste 	| CT-20 – Busca de Leads utilizando a Categoria Serviços/Produtos de Interesse|
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível localizar leads usando o filtro de Serviços/Produtos de Interesse |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar o filtro de buscas "Serviços/´Produtos de Interesse" <br> - Selecionar os serviços e/ou produtos que deseja filtrar <br> - Clicar em Pesquisar |
+|Critério de Êxito | O sistema deve retornar uma lista contendo somente os leads que forneceram informações de serviços e/ou produtos de interesse que correspondam aos filtros selecionados |
+
+| Caso de Teste 	| CT-21 – Busca de Leads utilizando a Categoria Serviços/Produtos de Interesse|
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível localizar leads usando o filtro de Serviços/Produtos de Interesse |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar o filtro de buscas "Serviços/´Produtos de Interesse" <br> - Selecionar os serviços e/ou produtos que deseja filtrar <br> - Clicar em Pesquisar |
+|Critério de Êxito | O sistema deve retornar uma lista contendo somente os leads que forneceram informações de serviços e/ou produtos de interesse que correspondam aos filtros selecionados |
+
+| Caso de Teste 	| CT-22 – Busca de Leads utilizando a Categoria Empresa de Interesse |
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível localizar leads que indicaram a empresa usuária como interesse durante o cadastro |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar o filtro de buscas "Interessados em Minha Empresa" <br> - Clicar em Pesquisar |
+|Critério de Êxito | O sistema deve retornar uma lista contendo somente os leads  indicaram a empresa usuária como interesse durante o cadastro |
+
+| Caso de Teste 	| CT-23 – Busca de Leads utilizando mais de um filtro ao mesmo tempo |
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível localizar leads a partir de filtros combinados |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar os filtros de buscas "Localização", "Serviços/Produtos de Interesse" e "Interessados em Minha Empresa" e preencher as correspondentes especificações de cada um <br> - Clicar em Pesquisar |
+|Critério de Êxito | O sistema deve retornar uma lista contendo leads que atendam a todas as categorias especificadas |
+
+| Caso de Teste 	| CT-24 – Limpar Filtros de Busca|
+|:---:	|:---:	|
+|Requisitos Associados |RF-007|
+| Objetivos do Teste 	| Verificar se é possível limpar filtros de buscas e obter lista de leads sem especificações |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar os filtros de buscas "Localização", "Serviços/Produtos de Interesse" e "Interessados em Minha Empresa" e preencher as correspondentes especificações de cada um <br> - Clicar em Pesquisar <br> - Selecionar a Opção "Limpar Filtros" <br> - Clicar em pesquisar novamente |
+|Critério de Êxito | O sistema deve retornar uma lista contendo todos os leads cadastrados no sistema |
+
+
+| Caso de Teste 	| CT-25 – Exportação de Dados em XLS|
+|:---:	|:---:	|
+|Requisitos Associados |RF-006|
+| Objetivos do Teste 	| Verificar se é possível exportar dados de um Lead  em formato XLS |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar um lead cadastrado <br> - Clicar em "Exportar Dados"|
+|Critério de Êxito | O sistema deve exportar os dados do lead selecionado em um arquivo em formato XLS, cujo download será feito automaticamente e que poderá ser aberto e visualizado em aplicativos de planilhas|
+
+| Caso de Teste 	| CT-26 – Exportação de diversos Dados em XLS|
+|:---:	|:---:	|
+|Requisitos Associados |RF-006|
+| Objetivos do Teste 	| Verificar se é possível exportar dados de mais de um Lead  em formato XLS ao mesmo tempo |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar pelo menos três leads cadastrado <br> - Clicar em "Exportar Dados dos Leads Selecionados"|
+|Critério de Êxito | O sistema deve exportar os dados de todos os leads selecionados em um arquivo em formato XLS, cujo download será feito automaticamente e que poderá ser aberto e visualizado em aplicativos de planilhas sem conter erros|
+
+| Caso de Teste 	| CT-27 – Verificação da Estrutura dos Arquivos XLS|
+|:---:	|:---:	|
+|Requisitos Associados |RF-006|
+| Objetivos do Teste 	| Verificar se o arquivo XLS exportado contém todos os dados dos leads estruturados em colunas |
+| Passos 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar pelo menos três leads cadastrado <br> - Clicar em "Exportar Dados dos Leads Selecionados" <br> - Abrir o arquivo XLS em um aplicativo de visualização e edição de planilhas |
+|Critério de Êxito | O arquivo XLS deve ser aberto e lido sem apresentar erros, contendo os dados divididos e estruturados em colunas que correspondam à divisão de informações do sistema e cuja leitura seja de fácil compreensão|
 
 
 
