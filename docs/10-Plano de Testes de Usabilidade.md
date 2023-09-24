@@ -37,6 +37,57 @@ A especificação desses critérios, a fim de que sejam consideradas diferentes 
 4. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um navegador diferente do anterior e que possua, no mínimo, as seguintes caracterísicas divergentes do usuário anterior: área de atuação da empresa que representa, porte da empresa que representa e idade.
 5. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um dispositivo móvel e que possua, ao menos, as seguintes caracterísicas divergentes dos usuários anteriores: área de atuação da empresa que representa, porte da empresa que representa e gênero.
 
+## Método e Procedimentos de Testes
+
+### Documentos para resguardar a participação dos voluntários 
+
+- Termo de Consentimento Livre e Esclarecido
+- Declaração de Proteção de Dados e Imagem do Usuário
+- Formulário de Feedback de Usabilidade da Aplicação Prospecta
+
+
+### Condutores dos Testes
+
+Os testes de usabilidade serão conduzidos por três integrantes do time: Arthur Zebral, Carolina Mascarenhas e Débora Alexia.
+
+Cada participante voluntário será atendido por somente um condutor, que ficará responsável por instruir, registrar e garantir a efetiva realização dos testes por este mesmo participante. 
+
+A relação de voluntários e respectivos condutores será especificada nos Registros de Teste de Usabilidade.
+
+
+### Procedimento
+
+Os testes serão realizados de forma remota, através de reunião previamente agendada na aplicação Zoom. 
+
+Durante a aplicação de testes, o usuário manterá a câmera ou webcam ligada e, concomitantemente, compartilhará sua tela durante a execução das tarefas sugeridas.
+
+Um mesmo participante realizará diferentes tipos de testes, cujas instruções serão devidamente esclarecidas. 
+
+A chamada realizada será gravada, mediante autorização prévia, concedida através do Termo de Consentimento Livre e Esclarecido. 
+
+O condutor do teste manterá sua câmera desligada durante a execução de tarefas, a fim de conferir maior liberdade de ações ao participante. 
+
+
+### Métodos
+
+O métodos a serem utilizados serão:
+
+- Observação direta, através do registro de imagens da reunião
+- Medição de tempo de realização das tarefas executadas
+- Avaliação do desempenho da aplicação em relação às tarefas executadas
+- Avaliação da opinião do usuário através de formulário de feedback
+
+Desta forma, os participantes realizarão tarefas na aplicação, sob condições e instruções específicas. Concomitantemente, o condutor dos testes observará em silêncio, tomará notas, registrará o comportamento do usuário e coletará quaisquer depoimentos orais, bem como o formulário de feedback a ser preenchido no final da realização de atividades. 
+
+O condutos ainda será responsável por revisar o registro de imagens, com foco na tela compartilhada pelo usuário e registrará o comportamento da aplicação, casos de sucesso e eventuais erros de resposta do software.
+
+
+
+
+
+
+
+
 
 
 
