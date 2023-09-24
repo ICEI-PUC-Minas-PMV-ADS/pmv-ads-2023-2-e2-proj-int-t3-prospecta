@@ -125,8 +125,19 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Passos 	| - Fazer login no usuário da empresa <br> - Acessar a página de Gerenciamento de Leads <br> - Selecionar um dos leads vinculados à empresa <br> - Alterar a a etapa em que o lead se encontra|
 |Critério de Êxito | O sistema deve exibir um alerta ou notificação para a empresa usuária, informando que a etapa de captação de um lead específico foi alterada |
 
+| Caso de Teste 	| CT-17 – Armazenamento e Visualização dos Dados dos Leads |
+|:---:	|:---:	|
+|Requisitos Associados |RF-005|
+| Objetivos do Teste 	| Verificar se os dados de cadastro dos leads estão armazenados corretamente no banco de dados do sistema |
+| Passos 	| - Acessar a página de formulário de cadastro de leads <br> - Realizar o cadastro completo de um novo lead <br> - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Buscar o lead anteriormente cadastrado |
+|Critério de Êxito | O lead cadastrado deve constar no banco de dados do sistema e a empresa usuária deve poder visualizar os dados do lead e todas as informações fornecidas no cadastro deste |
 
-
+| Caso de Teste 	| CT-18 – Exclusão de Dados de Leads |
+|:---:	|:---:	|
+|Requisitos Associados |RF-005|
+| Objetivos do Teste 	| Garantir que os dados de um lead cadastrado possam ser excluídos do banco de dados do sistema |
+| Passos 	| - Acessar a página de formulário de cadastro de leads <br> - Realizar o cadastro completo de um novo lead <br> - Acessar a homepage do sistema <br> - Clicar na opção "Desejo excluír meus dados de cadastro" <br> - Preencher os campos de "nome" e "cpf"  <br> - Confirmar o desejo de exclusão de dados <br> - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Buscar o lead anteriormente excluído |
+|Critério de Êxito | A empresa usuária não deve ser capaz de visualizar no sistema informações sobre o Lead cujos dados foram anteriormente excluídos |
 
 
 
