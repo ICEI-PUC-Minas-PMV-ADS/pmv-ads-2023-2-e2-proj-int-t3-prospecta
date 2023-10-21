@@ -480,3 +480,6 @@ bin/
 bin
 **/bin/
 src/Prospecta/Prospecta/bin
+
+**/.vs
+**/obj
