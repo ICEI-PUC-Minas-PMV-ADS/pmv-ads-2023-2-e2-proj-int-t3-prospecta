@@ -8,5 +8,9 @@ namespace Prospecta.Models
 
         public DbSet<Lead> Leads { get; set; }
 
+        public DbSet<Empresa> Empresas { get; set; }
+
+        public DbSet<UsuarioEmpresa> Usuarios { get; set; }
+
     }
 }
