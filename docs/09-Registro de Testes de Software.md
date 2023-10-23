@@ -44,7 +44,7 @@
 <br> 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/blob/main/src/cadastroempresa.gif">
 
-| **Registro de Caso de Teste** 	| ** CT-11 – Edição de Dados Cadastrais da Empresa Usuária ** 	|
+| **Registro de Caso de Teste** 	| **CT-11 – Edição de Dados Cadastrais da Empresa Usuária**|
 |:---:	|:---:	|
 |Requisitos Associados 	| RF-002 |
 |Objetivos do Teste| Verificar se a empresa usuária pode editar os dados da sua empresa no sistema, incluindo informações como nome fantasia, CNPJ, endereço, e-mail, área de atuação e senha. |
@@ -55,7 +55,7 @@
 <br> 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/blob/main/src/edicaoempresa.gif">
 
-| **Registro de Caso de Teste** 	| ** CT-12 – Exclusão de Dados Cadastrais da Empresa Usuária ** 	|
+| **Registro de Caso de Teste** 	|**CT-12 – Exclusão de Dados Cadastrais da Empresa Usuária**|
 |:---:	|:---:	|
 |Requisitos Associados 	| RF-002 |
 |Objetivos do Teste| Verificar se a empresa usuária pode excluir permanentemente os dados da sua empresa do sistema, garantindo que todas as informações sejam removidas com êxito. |
