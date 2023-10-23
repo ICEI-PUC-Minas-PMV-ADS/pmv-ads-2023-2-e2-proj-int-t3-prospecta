@@ -9,6 +9,8 @@
 |Verificações| - Verifiquei se o lead foi cadastrado no sistema. <br> - Verifiquei se os dados fornecidos foram armazenados corretamente no banco de dados.|
 |Comportamento do Sitema| Após a conclusão do teste, o sistema demonstrou que o lead foi cadastrado com sucesso.|
 |Conclusão| O teste foi concluído com sucesso, uma vez que o lead foi cadastrado no sistema sem erros visíveis, e os dados enviados foram armazenados corretamente no banco de dados.|
+<br> 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/blob/main/src/criarlead.gif">
 
 
 
