@@ -37,7 +37,7 @@
 |Requisitos Associados 	| RF-002 |
 |Objetivos do Teste| Verificar se uma empresa pode se cadastrar no sistema. |
 |Comportamento do Sitema|Após a conclusão do teste, o sistema confirmou que o cadastro da empresa foi devidamente realizado.|
-|Observações| O campo denominato "Área de Atuação" apresentou falhas de preenchimento, relacionados à declaração da variável correspondente.|
+|Observações| O campo denominado "Área de Atuação" apresentou falhas de preenchimento, relacionados à declaração da variável correspondente.|
 |Conclusão|O teste foi concluído com êxito.|
 
 **Evidências:**
