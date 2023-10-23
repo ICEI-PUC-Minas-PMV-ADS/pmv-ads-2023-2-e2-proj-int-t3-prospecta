@@ -1,8 +1,17 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+# Registro de Testes de Software
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+| **Registro de Caso de Teste** 	| **CT-01 – Cadastro de Leads** 	|
+|:---:	|:---:	|
+|	Requisitos Associados 	| RF-001 e RF-005 |
+|Objetivos do Teste| Verificar se o cadastro de leads é possível através de preenchimento de formulário |
+|Verificações| - Verifiquei se o lead foi cadastrado no sistema. <br> - Verifiquei se os dados fornecidos foram armazenados corretamente no banco de dados.|
+|Comportamento do Sitema| Após a conclusão do teste, o sistema demonstrou que o lead foi cadastrado com sucesso.|
+|Conclusão| O teste foi concluído com sucesso, uma vez que o lead foi cadastrado no sistema sem erros visíveis, e os dados enviados foram armazenados corretamente no banco de dados.|
+
+
+
 
 ## Avaliação
 
