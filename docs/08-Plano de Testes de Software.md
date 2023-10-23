@@ -85,15 +85,8 @@ A seguir, os cenários levantados e enumerados a partir de casos de testes para 
 | Caso de Teste 	| CT-11 – Edição de Dados Cadastrais da Empresa Usuária |
 |:---:	|:---:	|
 |Requisitos Associados |RF-002|
-| Objetivos do Teste 	| Verificar se a empresa usuária pode editar os dados da sua empresa no sistema, incluindo informações como nome fantasia, CNPJ, endereço, e-mail, área de atuação e senha. |
-| Passos 	| - Realizar o login na conta de usuário da empresa. <br> - Navegar até a seção de "Configurações da Empresa" ou "Editar Dados da Empresa" <br> - Editar campos relevantes (exemplo: Nome fantasia, CNPJ, Endereço, E-mail, etc) <br> - Confirmar a edição dos dados <br>- Verificar se as informações foram atualizadas com sucesso no sistema <br> - Fazer logout e realizar um novo login para confirmar que as alterações são efetivas |
-|Critério de Êxito | Após a edição dos dados da empresa, todas as informações editadas devem estar atualizadas no sistema, e a empresa deve conseguir fazer login com as informações atualizadas |
-
-| Caso de Teste 	| CT-11 – Edição de Dados Cadastrais da Empresa Usuária |
-|:---:	|:---:	|
-|Requisitos Associados |RF-002|
 | Objetivos do Teste 	| Verificar se a empresa usuária pode editar os dados da sua empresa no sistema, incluindo informações como nome fantasia, CNPJ, endereço, e-mail, área de atuação e senha |
-| Passos 	| - Realizar o login na conta de usuário da empresa. <br> - Navegar até a seção de "Configurações da Empresa" ou "Editar Dados da Empresa" <br> - Editar campos relevantes (exemplo: Nome fantasia, CNPJ, Endereço, E-mail, etc) <br> - Confirmar a edição dos dados <br>- Verificar se as informações foram atualizadas com sucesso no sistema <br> - Fazer logout e realizar um novo login para confirmar que as alterações são efetivas |
+| Passos 	| - Realizar o login na conta de usuário da empresa <br> - Navegar até a seção de "Configurações da Empresa" ou "Editar Dados da Empresa" <br> - Editar campos relevantes (exemplo: Nome fantasia, CNPJ, Endereço, E-mail, etc) <br> - Confirmar a edição dos dados <br>- Verificar se as informações foram atualizadas com sucesso no sistema <br> - Fazer logout e realizar um novo login para confirmar que as alterações são efetivas |
 |Critério de Êxito | Após a edição dos dados da empresa, todas as informações editadas devem estar atualizadas no sistema, e a empresa deve conseguir fazer login com as informações atualizadas |
 
 | Caso de Teste 	| CT-12 – Exclusão de Dados Cadastrais da Empresa Usuária |
