@@ -1,5 +1,9 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    background-image: url('/images/Background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -9,10 +13,23 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+  margin: 8px;
+  background-color:transparent!important;
+}
+
+.container{
+    background-color:white !important;
+
+  
+}
+
+.logo {
+    width:190px;
+    height:65px;
 }
