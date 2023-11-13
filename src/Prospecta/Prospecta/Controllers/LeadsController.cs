@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Prospecta.Models;
 
 namespace Prospecta.Controllers
 {
+    [Authorize]
     public class LeadsController : Controller
     {
         private readonly ProspectaDbContext _context;
