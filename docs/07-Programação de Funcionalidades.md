@@ -4,14 +4,13 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
-|------|-----------------------------------------|----|
-
-|RF-001| Emitir um relatório de tarefas no mês   | relatorio.shtml |
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
-|RF-003| Emitir um relatório de tarefas no mês   | relatorio.shtml |
-|RF-004| Emitir um relatório de tarefas no mês   | relatorio.shtml |
-|RF-005| Emitir um relatório de tarefas no mês   | relatorio.shtml |
-|RF-006| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|------|----------------------------------------------------------|-----------------------------------|
+|RF-001| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
+|RF-002| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
+|RF-003| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
+|RF-004| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
+|RF-005| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
+|RF-006| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
 |RF-007| Permitir a busca por leads cadastrados no banco de dados | LeadsController.cs , Index.cshtml | 
 
 
