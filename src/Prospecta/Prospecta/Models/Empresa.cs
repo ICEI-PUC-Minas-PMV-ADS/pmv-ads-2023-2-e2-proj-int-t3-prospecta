@@ -10,15 +10,19 @@ namespace Prospecta.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório.")]
+        [Display(Name = "Razão Social")]
         public string RazaoSocial { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório.")]
+        [Display(Name = "Nome Fantasia")]
         public string NomeFantasia { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório.")]
+        [Display(Name = "CNPJ")]
         public string Cnpj { get; set; }
 
         [Required(ErrorMessage = "Preenchimento obrigatório.")]
+        [Display(Name = "E-mail")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Preenchimento obrigatório.")]
@@ -31,9 +35,11 @@ namespace Prospecta.Models
         public string Estado { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório.")]
+        [Display(Name = "Endereço")]
         public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Por favor, informar o tipo de serviço ou produto que oferece!")]
+        [Display(Name = "Área de atuação")]
         public int AreaAtuacao { get; set; }
     }
 }
