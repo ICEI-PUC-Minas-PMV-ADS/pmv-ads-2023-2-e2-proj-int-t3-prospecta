@@ -5,13 +5,13 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|----------------------------------------------------------|-----------------------------------|
-|RF-001| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-002| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-003| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-004| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-005| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-006| Emitir um relatório de tarefas no mês                    | relatorio.shtml                   |
-|RF-007| Permitir a busca por leads cadastrados no banco de dados | LeadsController.cs , Index.cshtml | 
+|RF-001| Permitir o cadastro de dados pelo próprio lead a partir de formulário |  |
+|RF-002| Permitir que empresas realizem Login através de cadastro de usuário |  |
+|RF-003| Permitir que a empresa usuária favorite leads |  |
+|RF-004| Permitir que a empresa usuária gerencie em que etapa do processo de captação o lead se encontra |  |
+|RF-005| Armazenar e permitir a visualização dos dados dos leads no banco de dados | |
+|RF-006| Permitir que os dados dos leads sejam exportados em formato XLS |  |
+|RF-007| Permitir a filtragem dos leads a partir de categorias tais como localidade, preferência, entre outros | LeadsController.cs , Index.cshtml|
 
 
 # Instruções de acesso
