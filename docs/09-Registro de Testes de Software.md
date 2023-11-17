@@ -68,6 +68,9 @@
 
 **Etapa/Sprint 3:** Considerando as funcionalidades desenvolvidas, o desemprenho dos testes atingiu critérios satisfatórios dentro dos resultados esperados, cumprindo o fundamental em relação ao armazenamento de dados. No que diz respeito à elementos de tela, layout e texto, existem diversas melhorias que necessitam ser feitas, a fim de garantir uma melhor experiência de usuário. 
 
+
+# Registro de Testes de Software
+
 | Registro de Caso de Teste 	| CT-21 – Busca de Leads utilizando a Categoria Localização|
 |:---:	|:---:	|
 |Requisitos Associados |RF-007|
