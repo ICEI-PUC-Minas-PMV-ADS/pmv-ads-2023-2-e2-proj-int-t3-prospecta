@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using Prospecta.Models;
 
 namespace Prospecta.Controllers
 {
+    [Authorize]
     public class UsuarioEmpresasController : Controller
     {
         private readonly ProspectaDbContext _context;
@@ -25,12 +27,13 @@ namespace Prospecta.Controllers
         {
               return View(await _context.Usuarios.ToListAsync());
         }
-
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(UsuarioEmpresa usuario)
         {
             var usuarioDatabase = await _context.Usuarios
