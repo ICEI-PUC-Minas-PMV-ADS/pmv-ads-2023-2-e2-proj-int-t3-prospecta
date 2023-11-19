@@ -91,17 +91,3 @@
 | Objetivos do Teste 	| Verificar se é possível localizar leads que indicaram a empresa usuária como interesse durante o cadastro |
 | Comportamento do Sistema 	|  Ao fornecer a empresa de interesse foram retornados somente os leads que apresentavam essa informação em seu cadastro |
 |Conclusão | O teste foi concluído com êxito |
-
-|  Registro de Caso de Teste  	| CT-25 – Busca de Leads utilizando mais de um filtro ao mesmo tempo |
-|:---:	|:---:	|
-|Requisitos Associados |RF-007|
-| Objetivos do Teste 	| Verificar se é possível localizar leads a partir de filtros combinados |
-| Comportamento do Sistema 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar os filtros de buscas "Localização", "Serviços/Produtos de Interesse" e "Interessados em Minha Empresa" e preencher as correspondentes especificações de cada um <br> - Clicar em Pesquisar |
-|Conclusão | O sistema deve retornar uma lista contendo leads que atendam a todas as categorias especificadas |
-
-|  Registro de Caso de Teste  	| CT-26 – Limpar Filtros de Busca|
-|:---:	|:---:	|
-|Requisitos Associados |RF-007|
-| Objetivos do Teste 	| Verificar se é possível limpar filtros de buscas e obter lista de leads sem especificações |
-| Comportamento do Sistema 	|  - Fazer login no usuário da empresa <br> - Acessar a página de Leads Disponíveis <br> - Selecionar os filtros de buscas "Localização", "Serviços/Produtos de Interesse" e "Interessados em Minha Empresa" e preencher as correspondentes especificações de cada um <br> - Clicar em Pesquisar <br> - Selecionar a Opção "Limpar Filtros" <br> - Clicar em pesquisar novamente |
-|Conclusão | O sistema deve retornar uma lista contendo todos os leads cadastrados no sistema |
