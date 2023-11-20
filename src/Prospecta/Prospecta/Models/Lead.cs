@@ -41,8 +41,11 @@ namespace Prospecta.Models
         [Display(Name = "Empresa Pretendida")]
         public string EmpresaPretendida { get; set; }
 
+        public bool Favorito { get; set; }
+
         public void cadastrarLead()
         {
         }
     }
+
 }
