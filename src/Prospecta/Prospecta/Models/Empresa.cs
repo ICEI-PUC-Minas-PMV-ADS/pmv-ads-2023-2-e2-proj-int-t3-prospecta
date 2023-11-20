@@ -40,6 +40,6 @@ namespace Prospecta.Models
 
         [Required(ErrorMessage = "Por favor, informar o tipo de serviço ou produto que oferece!")]
         [Display(Name = "Área de atuação")]
-        public int AreaAtuacao { get; set; }
+        public string AreaAtuacao { get; set; }
     }
 }
