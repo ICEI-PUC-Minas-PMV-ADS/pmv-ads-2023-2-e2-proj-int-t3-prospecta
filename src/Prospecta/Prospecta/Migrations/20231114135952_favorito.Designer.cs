@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Prospecta.Models;
 
@@ -10,9 +11,11 @@ using Prospecta.Models;
 namespace Prospecta.Migrations
 {
     [DbContext(typeof(ProspectaDbContext))]
-    partial class ProspectaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231114135952_favorito")]
+    partial class favorito
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,9 +32,8 @@ namespace Prospecta.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AreaAtuacao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AreaAtuacao")
+                        .HasColumnType("int");
 
                     b.Property<string>("Cidade")
                         .IsRequired()

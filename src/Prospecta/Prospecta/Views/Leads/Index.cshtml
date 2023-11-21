@@ -8,6 +8,11 @@
 
 <p>
     <a asp-action="Create" class="btn btn-success">Adicionar um novo Lead</a>
+     <form asp-action="index">
+        <input name="search" class="form-control" placeholder="Pesquisar" />
+        <button type="submit" class="btn btn-secondary">Pesquisar</button>
+     </form>
+   
 </p>
 <table class="table">
     <thead>
@@ -76,7 +81,15 @@
                     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                     <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
                     <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluír</a>
-            </td>
+
+             </td>
+                <td>
+                    <form asp-action="ToggleFavorito" asp-route-id="@item.Id" method="post">
+                        <button type="submit" class="btn btn-primary">
+                            @((item.Favorito ? "Remover dos Favoritos" : "Adicionar aos Favoritos"))
+                        </button>
+                    </form>
+                    </td>
         </tr>
 }
     </tbody>

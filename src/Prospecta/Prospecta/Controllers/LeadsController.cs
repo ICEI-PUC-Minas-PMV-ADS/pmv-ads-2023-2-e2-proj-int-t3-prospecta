@@ -14,11 +14,29 @@ namespace Prospecta.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index() 
-        { 
-            var dados = await _context.Leads.ToListAsync();
+        public async Task<IActionResult> Index(string search) 
+        {
+            
+            if (string.IsNullOrEmpty(search)) {
+                var dados = await _context.Leads.ToListAsync();
+                return View(dados);
+            }
+            else
+            {
+                var dados = await _context.Leads.Where(lead => lead.Cpf.ToLower().Contains(search) ||
+                    lead.Nome.ToLower().Contains(search) ||
+                    lead.Email.ToLower().Contains(search) ||
+                    lead.Telefone.ToLower().Contains(search) ||
+                    lead.Cidade.ToLower().Contains(search) ||
+                    lead.Estado.ToLower().Contains(search) ||
+                    lead.Endereco.ToLower().Contains(search) ||
+                    lead.Interesse.ToLower().Contains(search) ||
+                    lead.EmpresaPretendida.ToLower().Contains(search)
+                ).ToListAsync();
+                return View(dados);
+            }
 
-            return View(dados);
+           
         }
 
         public IActionResult Create() 
@@ -107,6 +125,40 @@ namespace Prospecta.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
+
+
         }
+
+        public async Task<IActionResult> ToggleFavorito(int id)
+        {
+            var lead = await _context.Leads.FindAsync(id);
+
+            if (lead == null)
+            {
+                return NotFound();
+            }
+
+            lead.Favorito = !lead.Favorito;
+
+            try
+            {
+                _context.Update(lead);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (lead == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return RedirectToAction(nameof(Details), new { id });
+        }
+
     }
 }
