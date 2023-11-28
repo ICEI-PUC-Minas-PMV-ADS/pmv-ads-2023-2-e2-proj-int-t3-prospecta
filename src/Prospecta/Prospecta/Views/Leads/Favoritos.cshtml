@@ -1,0 +1,44 @@
+﻿@model List<Lead>
+
+@{
+    ViewData["Title"] = "Leads Favoritos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Endereço</th>
+            <th>Serviço/Produto de Interesse</th>
+            <th>Empresa Pretendida</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lead in Model)
+        {
+            <tr>
+                <td>@lead.Nome</td>
+                <td>@lead.Email</td>
+                <td>@lead.Cpf</td>
+                <td>@lead.Telefone</td>
+                <td>@lead.Cidade</td>
+                <td>@lead.Estado</td>
+                <td>@lead.Interesse</td>
+                <td>@lead.EmpresaPretendida</td>
+
+
+
+
+                
+            </tr>
+        }
+    </tbody>
+</table>
