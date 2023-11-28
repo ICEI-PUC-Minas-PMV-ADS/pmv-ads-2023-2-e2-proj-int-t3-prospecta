@@ -7,47 +7,63 @@
 <h1>Lista de Leads</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-success">Adicionar um novo Lead</a>
-     <form asp-action="index">
-        <input name="search" class="form-control" placeholder="Pesquisar" />
-        <button type="submit" class="btn btn-secondary">Pesquisar</button>
-     </form>
+    <div class="row">
+        <div class="col-sm-12 col-md-10 mb-3">
+            <a asp-action="Create" class="btn btn-success">Adicionar um novo Lead</a>
+        </div>
+        <div class="col-sm-12 col-md-2 text-md-end mb-3">
+            <a asp-action="Favoritos" class="btn btn-success container-md">Favoritos</a>
+        </div>
+    </div>
    
+  
+     <form asp-action="index">
+        <div class="row">
+            <div class="col-sm-12 col-md-10 mb-3">
+                <input name="search" class="form-control" placeholder="Pesquisar" />
+            </div>
+            <div class="col-sm-12 col-md-2 text-md-end mb-3">
+                <button type="submit" class="btn btn-secondary container-md">Pesquisar</button>
+            </div>
+        </div>
+     </form>
+
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cpf)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Interesse)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EmpresaPretendida)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cpf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Interesse)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmpresaPretendida)
+                </th>
+            </tr>
+        </thead>
     <tbody>
+
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -94,3 +110,4 @@
 }
     </tbody>
 </table>
+</div>

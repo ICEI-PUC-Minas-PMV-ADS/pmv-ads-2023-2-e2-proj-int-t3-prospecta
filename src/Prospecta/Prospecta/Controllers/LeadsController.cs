@@ -160,5 +160,12 @@ namespace Prospecta.Controllers
             return RedirectToAction(nameof(Details), new { id });
         }
 
+        public IActionResult Favoritos()
+        {
+            var favoritos = _context.Leads.Where(lead => lead.Favorito).ToList();
+            return View(favoritos);
+        }
+
+
     }
 }

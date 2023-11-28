@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Leads\Favoritar.cshtml.cs" />
+    <Compile Remove="Views\Leads\Favoritos.cs" />
+    <Compile Remove="Views\Leads\Favoritos.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\images\Background.jpeg" />
     <Content Remove="wwwroot\images\Prospecta.jpeg" />
   </ItemGroup>
