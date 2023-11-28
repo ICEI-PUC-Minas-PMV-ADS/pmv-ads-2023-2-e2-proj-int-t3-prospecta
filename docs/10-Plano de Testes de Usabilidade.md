@@ -48,7 +48,7 @@ A especificação desses critérios, a fim de que sejam consideradas diferentes 
 
 ### Condutores dos Testes
 
-Os testes de usabilidade serão conduzidos por três integrantes do time: Arthur Zebral, Carolina Mascarenhas e Débora Alexia.
+Os testes de usabilidade serão conduzidos por três integrantes do time: Arthur Zebral, Carolina Mascarenhas e Lídia Carvalho.
 
 Cada participante voluntário será atendido por somente um condutor, que ficará responsável por instruir, registrar e garantir a efetiva realização dos testes por este mesmo participante. 
 
