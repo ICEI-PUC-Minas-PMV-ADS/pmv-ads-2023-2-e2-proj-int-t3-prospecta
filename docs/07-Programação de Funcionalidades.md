@@ -5,13 +5,13 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|----------------------------------------------------------|-----------------------------------|
-|RF-001| Permitir o cadastro de dados pelo próprio lead a partir de formulário |  |
-|RF-002| Permitir que empresas realizem Login através de cadastro de usuário |  |
+|RF-001| Permitir o cadastro de dados pelo próprio lead a partir de formulário | LeadsController.cs, Index.cshtml(Leads), Lead.cs, |
+|RF-002| Permitir que empresas realizem Login através de cadastro de usuário | EmpresasController.cs, Empresa.cs, Index.cshtl(Empresa) |
 |RF-003| Permitir que a empresa usuária favorite leads |  |
 |RF-004| Permitir que a empresa usuária gerencie em que etapa do processo de captação o lead se encontra |  |
-|RF-005| Armazenar e permitir a visualização dos dados dos leads no banco de dados | |
+|RF-005| Armazenar e permitir a visualização dos dados dos leads no banco de dados | ProspectaDbContext.cs, Migrations|
 |RF-006| Permitir que os dados dos leads sejam exportados em formato XLS |  |
-|RF-007| Permitir a filtragem dos leads a partir de categorias tais como localidade, preferência, entre outros | LeadsController.cs , Index.cshtml|
+|RF-007| Permitir a filtragem dos leads a partir de categorias tais como localidade, preferência, entre outros | LeadsController.cs , Index.cshtml(Leads), Lead.cs|
 
 
 # Instruções de acesso
