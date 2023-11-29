@@ -12,7 +12,7 @@ using Prospecta.Models;
 
 namespace Prospecta.Controllers
 {
-    
+    [Authorize]
     public class UsuarioEmpresasController : Controller
     {
         private readonly ProspectaDbContext _context;
@@ -33,7 +33,7 @@ namespace Prospecta.Controllers
             return View();
         }
         [HttpPost]
-        
+        [AllowAnonymous]
         public async Task<IActionResult> Login(UsuarioEmpresa usuario)
         {
             var usuarioDatabase = await _context.Usuarios
