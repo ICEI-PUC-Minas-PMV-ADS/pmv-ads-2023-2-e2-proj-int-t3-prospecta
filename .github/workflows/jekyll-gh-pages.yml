@@ -1,0 +1,24 @@
+            - name: ASP.NET Core systemd service rolling update.
+  # You may pin to the exact commit or the version.
+  # uses: zerotomvp/rolling-systemd-update@2e52a7093aa1e063df8422881a120c9b90e2d528
+  uses: zerotomvp/rolling-systemd-update@v1-rc6
+  with:
+    # Name of the systemd service.
+    serviceName: 
+    # Host(s) to run the update on.
+    hosts: 
+    # Fingerprint(s) for the host(s).
+    fingerprints: # optional
+    # SSH username
+    username: # optional, default is root
+    # SSH port
+    port: # optional, default is 22
+    # SSH key
+    key: 
+    # Path to built files
+    source: 
+    # Debug
+    debug: # optional, default is false
+    # Enable health check after update
+    healthcheck: # optional, default is true
+          
