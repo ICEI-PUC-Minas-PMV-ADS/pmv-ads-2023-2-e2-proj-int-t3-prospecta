@@ -67,12 +67,12 @@ As ferramentas empregadas no projeto são:
 
 |Objetivo            | Ferramenta       |
 |--------------------|------------------|
-|**Editor de código**|Visual Studio Code|
+|**Editor de código**|Visual Studio Code e Visual Studio|
 |**Comunicação**|Microsoft Teams|
 |**Wireframe**|Marvel App |
 |**Diagramas**|Astah e Creately|
 |**Gerenciamento do Projeto**|Github Project|
-|**Hospedagem da Solução**|Github Pages|
+|**Hospedagem da Solução**|Github Pages e Smarter |
 
 
 
