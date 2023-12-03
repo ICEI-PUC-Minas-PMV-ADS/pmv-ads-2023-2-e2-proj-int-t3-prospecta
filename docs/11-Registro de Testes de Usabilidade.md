@@ -1,10 +1,9 @@
 # Registro de Testes de Usabilidade #
 
 ## Informações gerais dos voluntários ##
-<br>
-<br>
-| Voluntário | Pessoa 1 | Pessoa 2 | Empresa 1 | Empresa 2 | Empresa 3 | 
-| ------- | :-------: | :-------: | :-------: | :-------: | :-------: |
+
+| **Voluntário** | **Pessoa 1** | **Pessoa 2** | **Empresa 1** | **Empresa 2** | **Empresa 3** | 
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | Gênero | Feminino | Masculino | Masculino | Feminino | Masculino |
 | Idade | 23 anos | 21 anos | 37 anos | 26 anos | 42 anos |
 | Dispositivo | Móvel | Computador | Computador | Computador | Móvel |
@@ -15,11 +14,11 @@
 | Feedback da experiência | Positivo | Positivo | Positivo | Positivo | Positivo |
 
 
+
 ## Média de desempenho dos voluntários por ação/funcionalidade ##
-<br>
-<br>
+
 | Ação/Funcionalidade | Responsividade | Tempo de execução | Erros durante o processo | 
-| -------------- | :--------------: | :-------------: | :-------------: | 
+| :--------------: | :--------------: | :-------------: | :-------------: | 
 | Acesso pelo endereço no navegador | OK | 3" | 0 | 
 | Cadastro da empresa | OK | 18" | 0 | 
 | Login de Usuário | OK | 11" | 0 | 
@@ -33,7 +32,7 @@
 
 
 # System Usability Scale (SUS) - Resultados da Prospecta #
-<br>
+
 As 10 perguntas do SUS utilizadas no questionário foram, nessa exata ordem:
 <br>
 1.  Eu acho que gostaria de usar esse sistema com frequência.
@@ -59,8 +58,7 @@ Concordo: 4 pontos
 Concordo completamente: 5 pontos
 <br>
 Exemplo:
-<br> 
-<br>
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/675d45ca-9f88-43e2-94f9-5feb5bf2d31a)
 
 
@@ -72,13 +70,12 @@ Apuração = (X + Y) * 2,5
 
 
 ## Escala SUS - Pontuação ##
-<br>
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/e8f084d5-f63e-4b0b-9baf-e78ba74c73a0)
 
 
 ## Apuração das respostas obtidas ##
-<br>
-<br>
+
 | Perguntas | Pessoa 1 | Pessoa 2 | Empresa 1 | Empresa 2 | Empresa 3 | 
 | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | 1 | Concordo (4 pontos) | Concordo (4 pontos) | Concordo completamente (5 pontos) | Concordo completamente (5 pontos) | Concordo completamente (5 pontos) |
