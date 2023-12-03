@@ -97,6 +97,7 @@
 |Conclusão| O teste foi concluído com êxito |
 
 **Evidências:**
+<br>
 ![Favoritar lead evidência](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/a3ae6e44-f2bf-43e2-899b-f71640b2ad70)
 
 
@@ -119,6 +120,7 @@
 |Conclusão | O teste foi concluído com êxito |
 
 **Evidências:**
+<br>
 ![Exclusao e visualização lead](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/0b6e2ca4-0ad6-4d18-b554-dcf2ffa10596)
 ![exclusão lead gif](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/5048bd5c-9abb-45f7-a9da-b9dfee099f18)
 
@@ -150,6 +152,7 @@
 |Conclusão | O teste foi concluído com êxito |
 
 **Evidências:**
+<br>
 ![Evidencia busca lead](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-prospecta/assets/123324372/c877c99d-4c65-4346-8e32-6b9e76308d00)
 
 
