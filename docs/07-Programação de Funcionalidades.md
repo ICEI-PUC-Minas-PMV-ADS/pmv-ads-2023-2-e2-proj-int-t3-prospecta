@@ -16,6 +16,6 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 # Instruções de acesso
 
-A aplicação pode ser acessada por meio do endereço: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e2-proj-int-t3-prospecta/
+A aplicação pode ser acessada por meio do endereço: C:\Users\Carol\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2023-2-e2-proj-int-t3-prospecta\src\Prospecta\Prospecta\Imagens\Prospecta.jpeg
 
 Usuário de teste: admin (senha: admin)
