@@ -12,7 +12,7 @@ using Prospecta.Models;
 
 namespace Prospecta.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class UsuarioEmpresasController : Controller
     {
         private readonly ProspectaDbContext _context;
