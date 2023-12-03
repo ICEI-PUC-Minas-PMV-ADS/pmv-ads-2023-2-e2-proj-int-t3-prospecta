@@ -52,9 +52,13 @@ As 10 perguntas do SUS utilizadas no questionário foram, nessa exata ordem:
 O questionário consiste nessas 10 perguntas, e para cada uma delas o usuário pode responder em uma escala Likert de 1 a 5, onde a cada resposta é atribuído um valor para o cálculo da pontuação SUS. A divisão de pontos para as respostas são:
 <br>
 Discordo completamente: 1 ponto
+<br>
 Discordo: 2 pontos
+<br>
 Neutro: 3 pontos
+<br>
 Concordo: 4 pontos
+<br>
 Concordo completamente: 5 pontos
 <br>
 Exemplo:
@@ -65,7 +69,9 @@ Exemplo:
 ## Cálculo utilizado de acordo com o SUS ##
 <br>
 X = (soma da pontuação das perguntas ímpares) - 5 
+<br>
 Y = 25 - (soma da pontuação das perguntas pares)
+<br>
 Apuração = (X + Y) * 2,5
 
 
