@@ -31,4 +31,4 @@ Também foram utilizados conhecimentos em HTML e CSS e o framework Bootstrap.
 
 ## Hospedagem
 
-A hospedagem, inicialmente, está sendo feita diretamente pelo GitHub Pages.
+A hospedagem foi concluída pelo Smarter.
